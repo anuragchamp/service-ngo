@@ -1,0 +1,20 @@
+.donate-btn-container {
+    display: block;
+    width: 150px;
+    display: flex;
+}
+
+.donate-btn-container:hover span{
+    color: var(--color5);
+}
+
+.donate-btn-container:hover a{
+    color: var(--color5);
+}
+
+
+@media screen and (max-width: 560px) {
+    .donate-btn-container {
+        display: none;
+    }
+}
